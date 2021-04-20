@@ -1,4 +1,5 @@
-﻿using HotelManagementAPI.DataModel;
+﻿using DTOS.RequestDtos;
+using HotelManagementAPI.DataModel;
 using HotelManagementAPI.DTOS.ResponseDtos;
 using HotelManagementAPI.ModelDtos;
 using HotelManagementAPI.Repositories;
@@ -69,6 +70,31 @@ namespace HotelManagementAPI.Controllers
             }
             return BadRequest(new Response { Success = "False", Message = "Invalid data" });
         }
+
+
+        [HttpPost]
+        public async Task<IActionResult> SignIn([FromBody]SignInDto model )
+        {
+            if (ModelState.IsValid)
+            {
+                var findEmail =  await _userManager.FindByEmailAsync(model.Email);
+                if (findEmail is not null)
+                {
+                    
+                    var comparePassword = await _userManager.CheckPasswordAsync(findEmail, model.Password);
+                    if (comparePassword)
+                    {
+                        return Ok(new Response { Success = "true", Message = "You are successfully verified" });
+                    }
+                    return Unauthorized(new Response { Success = "false", Message = "You are not authorized" });
+
+                }
+                return BadRequest(new Response { Success = "false ", Message = "The email is not in the database" });
+
+            }
+            return BadRequest(new Response { Success = "False", Message = "Invalid Data" });
+
+        }
         private string GenerateJwtToken(ApplicationUser user)
         {
             var jwtTokenHandler = new JwtSecurityTokenHandler();
@@ -96,4 +122,5 @@ namespace HotelManagementAPI.Controllers
 
        
     }
+
 }

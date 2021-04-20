@@ -16,8 +16,20 @@ namespace HotelManagementAPI.Repositories
         {
             this._hotelDBContext = hotelDBContext;
         }
-        public Task<bool> BookARoom(CustomerDto customer)
+        public async  Task<bool> CustomerInformationThatBookRoom(Customer customer)
         {
+            try
+            {
+               await  _hotelDBContext.Customers.AddAsync(customer);
+                await _hotelDBContext.SaveChangesAsync();
+                return true;
+            
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
            
         }
     }

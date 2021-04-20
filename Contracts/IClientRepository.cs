@@ -1,4 +1,5 @@
-﻿using HotelManagementAPI.ModelDtos;
+﻿using HotelManagementAPI.DataModel;
+using HotelManagementAPI.ModelDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,6 @@ namespace HotelManagementAPI.Repositories
 {
    public  interface IClientRepository
     {
-        Task<bool> BookARoom(CustomerDto customer);
+        Task<bool> CustomerInformationThatBookRoom(Customer customer);
     }
 }

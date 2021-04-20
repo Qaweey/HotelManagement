@@ -1,0 +1,17 @@
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\bin\Debug\net5.0\Contracts.deps.json
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\bin\Debug\net5.0\Contracts.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\bin\Debug\net5.0\ref\Contracts.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\bin\Debug\net5.0\Contracts.pdb
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\bin\Debug\net5.0\DataModel.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\bin\Debug\net5.0\DTOS.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\bin\Debug\net5.0\DataModel.pdb
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\bin\Debug\net5.0\DTOS.pdb
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\obj\Debug\net5.0\Contracts.csprojAssemblyReference.cache
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\obj\Debug\net5.0\Contracts.csproj.CopyComplete
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\obj\Debug\net5.0\Contracts.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\obj\Debug\net5.0\ref\Contracts.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\Contracts\obj\Debug\net5.0\Contracts.pdb

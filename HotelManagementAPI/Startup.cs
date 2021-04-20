@@ -1,3 +1,5 @@
+using Contracts;
+using DAL;
 using HotelManagementAPI.DataModel;
 using HotelManagementAPI.DTOS;
 using HotelManagementAPI.ModelDtos;
@@ -49,8 +51,8 @@ namespace HotelManagementAPI
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
-            //services.AddScoped<IRoomRepository, RoomRepository>();
-            //services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IRoomRepository, RoomRepository>();
+            services.AddScoped<IClientRepository, ClientRepository>();
             services.AddScoped<IEmailSender, EmailRepository>();
 
             services.AddIdentity<ApplicationUser,IdentityRole>()
@@ -72,6 +74,8 @@ namespace HotelManagementAPI
                     EnableSsl=true
                 });
 
+          
+            
 
 
             services.AddControllersWithViews();

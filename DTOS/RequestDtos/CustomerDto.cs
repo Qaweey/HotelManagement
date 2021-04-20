@@ -10,8 +10,8 @@ namespace HotelManagementAPI.ModelDtos
         public string CustomerName { get; set; }
         public DateTime DateOfBooking { get; set; } = DateTime.UtcNow;
 
-
-       public List<RoomDto> listOfRooms { get; set; } = new ();
+        public int NumberOfdaysToBook { get; set; }
+        public List<RoomDto> listOfRooms { get; set; } = new ();
 
 
 

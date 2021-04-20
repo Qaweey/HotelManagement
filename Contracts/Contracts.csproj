@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DataModel\DataModel.csproj" />
     <ProjectReference Include="..\DTOS\DTOS.csproj" />
   </ItemGroup>
 

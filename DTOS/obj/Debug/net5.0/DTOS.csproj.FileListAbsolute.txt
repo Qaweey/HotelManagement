@@ -1,0 +1,15 @@
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\bin\Debug\net5.0\DTOS.deps.json
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\bin\Debug\net5.0\DTOS.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\bin\Debug\net5.0\ref\DTOS.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\bin\Debug\net5.0\DTOS.pdb
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\bin\Debug\net5.0\DataModel.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\bin\Debug\net5.0\DataModel.pdb
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\obj\Debug\net5.0\DTOS.csprojAssemblyReference.cache
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\obj\Debug\net5.0\DTOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\obj\Debug\net5.0\DTOS.AssemblyInfoInputs.cache
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\obj\Debug\net5.0\DTOS.AssemblyInfo.cs
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\obj\Debug\net5.0\DTOS.csproj.CoreCompileInputs.cache
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\obj\Debug\net5.0\DTOS.csproj.CopyComplete
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\obj\Debug\net5.0\DTOS.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\obj\Debug\net5.0\ref\DTOS.dll
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DTOS\obj\Debug\net5.0\DTOS.pdb
