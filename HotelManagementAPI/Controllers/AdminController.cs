@@ -27,7 +27,7 @@ namespace HotelManagementAPI.Controllers
             this._mapper = mapper;
         }
         // GET: api/<RoomController>
-        [HttpGet]
+        [HttpGet("BookedRooms")]
         public async  Task<ActionResult<IEnumerable<RoomDto>>> GetBookedRooms()
         {
             var listOfBookedRoom =  await _roomRepository.GetAllBookedRooms();
@@ -35,7 +35,7 @@ namespace HotelManagementAPI.Controllers
 
             return Ok(me);
         }
-        [HttpGet]
+        [HttpGet("UnbookedRooms")]
         public async Task<ActionResult<IEnumerable<RoomDto>>> GetUnbookedRoom()
         {
             try
@@ -51,7 +51,7 @@ namespace HotelManagementAPI.Controllers
                  
             }
         }
-        [HttpGet]
+        [HttpGet("CheckedRooms")]
         public async Task<ActionResult<IEnumerable<RoomDto>>> GetCheckedRooms()
         {
             try
@@ -68,7 +68,7 @@ namespace HotelManagementAPI.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet("UncheckedRooms")]
         public async Task<ActionResult<IEnumerable<RoomDto>>> GetUncheckedRooms()
         {
             try
@@ -86,7 +86,7 @@ namespace HotelManagementAPI.Controllers
         }
 
         // GET api/<RoomController>/5
-        [HttpGet]
+        [HttpGet("TheTotalNumberOfRooms")]
         public async  Task<ActionResult<int> > TheTotalNumberOfRooms()
         {
             try
@@ -102,8 +102,8 @@ namespace HotelManagementAPI.Controllers
         }
 
         // POST api/<RoomController>
-        [HttpPost]
-        public ActionResult<decimal> TheTotalNumberOfRo()
+        [HttpGet("TotalNumberOfRevenue")]
+        public ActionResult<decimal> TheTotalNumberOfRevenue()
         {
             try
             {
@@ -119,7 +119,7 @@ namespace HotelManagementAPI.Controllers
         }
 
         // PUT api/<RoomController>/5
-        [HttpPost]
+        [HttpPost("CreateRooms")]
         public  async Task<ActionResult> CreateRoom( [FromBody] RoomDto model)
         {
             try
@@ -137,7 +137,7 @@ namespace HotelManagementAPI.Controllers
 
 
         // DELETE api/<RoomController>/5
-        [HttpDelete()]
+        [HttpDelete("DeleteRooms")]
         public ActionResult Delete(int id)
         {
             try

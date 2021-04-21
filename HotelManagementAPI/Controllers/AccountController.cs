@@ -72,7 +72,7 @@ namespace HotelManagementAPI.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("Signin")]
         public async Task<IActionResult> SignIn([FromBody]SignInDto model )
         {
             if (ModelState.IsValid)
@@ -95,7 +95,7 @@ namespace HotelManagementAPI.Controllers
             return BadRequest(new Response { Success = "False", Message = "Invalid Data" });
 
         }
-        private string GenerateJwtToken(ApplicationUser user)
+        private  string GenerateJwtToken(ApplicationUser user)
         {
             var jwtTokenHandler = new JwtSecurityTokenHandler();
 

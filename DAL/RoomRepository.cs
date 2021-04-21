@@ -59,7 +59,7 @@ namespace DAL
         {
             try
             {
-                return await _context.Rooms.Where(s => s.IsBooked == true).ToListAsync();
+                return await _context.Rooms.Where(s => s.IsBooked == true || s.IsCheckedIn==true).ToListAsync();
             }
             catch (Exception)
             {
@@ -75,12 +75,12 @@ namespace DAL
 
         public  async Task<IEnumerable<Room>> GetAllUnbookedRooms()
         {
-            return await _context.Rooms.Where(s => s.IsBooked == false).ToListAsync();
+            return await _context.Rooms.Where(s => s.IsBooked == false ).ToListAsync();
         }
 
         public  async Task<IEnumerable<Room>> GetAllUncheckedInRooms()
         {
-            return await _context.Rooms.Where(s => s.IsBooked == false && s.IsCheckedIn == false).ToListAsync();
+            return await _context.Rooms.Where(s => s.IsBooked == true && s.IsCheckedIn == false).ToListAsync();
         }
 
         public decimal RevenueGeneratedPerDay()

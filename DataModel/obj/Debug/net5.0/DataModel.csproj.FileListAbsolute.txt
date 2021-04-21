@@ -12,3 +12,4 @@ C:\Users\QaweeySoetan\source\repos\HotelManagement\DataModel\obj\Debug\net5.0\Da
 C:\Users\QaweeySoetan\source\repos\HotelManagement\DataModel\obj\Debug\net5.0\ref\DataModel.dll
 C:\Users\QaweeySoetan\source\repos\HotelManagement\DataModel\obj\Debug\net5.0\DataModel.pdb
 C:\Users\QaweeySoetan\source\repos\HotelManagement\DataModel\obj\Debug\net5.0\DataModel.genruntimeconfig.cache
+C:\Users\QaweeySoetan\source\repos\HotelManagement\DataModel\obj\Debug\net5.0\DataModel.csprojAssemblyReference.cache

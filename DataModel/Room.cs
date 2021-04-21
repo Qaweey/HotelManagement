@@ -14,7 +14,7 @@ namespace HotelManagementAPI.DataModel
         public decimal CostOfRoom { get; set; }
         public int CustomerId { get; set; }
         public bool IsCheckedIn { get; set; }
-        public bool IsCheckedOut { get; set; }
+        
         public bool IsBooked { get; set; }
 
         public int RoomtypeId { get; set; }
